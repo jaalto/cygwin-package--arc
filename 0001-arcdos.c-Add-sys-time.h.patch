@@ -1,0 +1,28 @@
+From 47d3d88ae5bd286cd54591d19433fea6c1d8e019 Mon Sep 17 00:00:00 2001
+From: Jari Aalto <jari.aalto@cante.net>
+Date: Sat, 16 Feb 2008 20:18:57 +0200
+Subject: [PATCH] arcdos.c: Add sys/time.h
+
+Signed-off-by: Jari Aalto <jari.aalto@cante.net>
+---
+ arcdos.c |    4 ++++
+ 1 files changed, 4 insertions(+), 0 deletions(-)
+
+diff --git a/arcdos.c b/arcdos.c
+index a47e6f1..e562324 100644
+--- a/arcdos.c
++++ b/arcdos.c
+@@ -23,6 +23,10 @@
+ #include <stdio.h>
+ #include "arc.h"
+ 
++#ifdef __CYGWIN__
++#  include <sys/time.h>
++#endif
++
+ #if	MSDOS
+ #include "fileio2.h"		/* needed for filehand */
+ #endif
+-- 
+1.5.3.8
+

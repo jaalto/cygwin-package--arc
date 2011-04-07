@@ -1,0 +1,2 @@
+tag1: arc
+  http://packages.debian.org/unstable/arc pregexp:orig.tar.gz file:arc_5.21m.orig.tar.gz new: x:
