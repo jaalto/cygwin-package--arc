@@ -57,16 +57,18 @@ This will create:
 ------------------------------------------
 
 Files included in the binary distribution:
-
-  <See content of *.tar.gz>
+  See Cygwin package archive
 
 ------------------------------------------
 
 Port Notes:
 - No marc.1 manual page. Copied from Debian
 
+----- version 5.21p-1 -----
+- New upstream release 2011-04-07 Jari Aalto
+
 ----- version 5.21m-1 -----
 - Initial release 2008-02-16 Jari Aalto
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2008 Jari Aalto; Licensed under GPL v2 or later
+Copyright (C) 2008-2011 Jari Aalto; Licensed under GPL v2 or later
