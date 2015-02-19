@@ -64,9 +64,13 @@ Files included in the binary distribution:
 Port Notes:
 - No marc.1 manual page. Copied from Debian
 
+----- version 5.21q-1 -----
+- New upstream release 2015-02-19 Jari Aalto
+- Compiled with security patches
+
 ----- version 5.21p-2 -----
 - New release 2015-02-19 Jari Aalto
-- Cygwin: compiled with security patches from
+- Compiled with security patches from
   http://pkgs.fedoraproject.org/cgit/arc.git
   arc-5.21p-directory-traversel.patch
   arc-5.21p-fix-arcdie.patch
