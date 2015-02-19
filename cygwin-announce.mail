@@ -1,5 +1,5 @@
 To: cygwin-announce@cygwin.com
-Subject: Updated: arc 5.21p-1 -- The ARC archive utility
+Subject: Updated: arc 5.21p-2 -- The ARC archive utility
 --text follows this line--
 
 PACKAGE DESCRIPTION
@@ -24,6 +24,13 @@ INSTALL OR UPGRADE NOTES
 ========================
 
 Standard install.
+
+Cygwin: compiled with security patchs from
+http://pkgs.fedoraproject.org/cgit/arc.git
+
+- arc-5.21p-directory-traversel.patch
+- arc-5.21p-fix-arcdie.patch
+- arc-5.21p-hdrv1-read-fix.patch
 
 CYGWIN INSTALLATION INFORMATION
 ===============================

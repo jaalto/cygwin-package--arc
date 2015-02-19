@@ -64,6 +64,14 @@ Files included in the binary distribution:
 Port Notes:
 - No marc.1 manual page. Copied from Debian
 
+----- version 5.21p-2 -----
+- New release 2015-02-19 Jari Aalto
+- Cygwin: compiled with security patchs from
+  http://pkgs.fedoraproject.org/cgit/arc.git
+  arc-5.21p-directory-traversel.patch
+  arc-5.21p-fix-arcdie.patch
+  arc-5.21p-hdrv1-read-fix.patch
+
 ----- version 5.21p-1 -----
 - New upstream release 2011-04-07 Jari Aalto
 
@@ -71,4 +79,4 @@ Port Notes:
 - Initial release 2008-02-16 Jari Aalto
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2008-2011 Jari Aalto; Licensed under GPL v2 or later
+Copyright (C) 2008-2015 Jari Aalto; Licensed under GPL v2 or later

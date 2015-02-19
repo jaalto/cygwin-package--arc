@@ -6,4 +6,3 @@ turns out to be more efficient than Lempel-Ziv style compression when
 compressing graphic images. Squeeze analysis is always done now, and
 the best of packing, squeezing, or crunching is used."
 category: Archive
-requires: cygwin
