@@ -25,7 +25,7 @@ INSTALL OR UPGRADE NOTES
 
 Standard install.
 
-Cygwin: compiled with security patchs from
+Cygwin: compiled with security patches from
 http://pkgs.fedoraproject.org/cgit/arc.git
 
 - arc-5.21p-directory-traversel.patch

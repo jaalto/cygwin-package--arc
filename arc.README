@@ -66,7 +66,7 @@ Port Notes:
 
 ----- version 5.21p-2 -----
 - New release 2015-02-19 Jari Aalto
-- Cygwin: compiled with security patchs from
+- Cygwin: compiled with security patches from
   http://pkgs.fedoraproject.org/cgit/arc.git
   arc-5.21p-directory-traversel.patch
   arc-5.21p-fix-arcdie.patch
