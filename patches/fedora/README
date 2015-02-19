@@ -1,0 +1,25 @@
+Date: Tue, 17 Feb 2015 20:06:58 -0600
+From: Yaakov Selkowitz <yselkowitz@cygwin.com>
+To: "cygwin-apps@cygwin.com" <cygwin-apps@cygwin.com>
+Cc: Jari Aalto <jari.aalto@cante.net>
+Subject: [SECURITY] arc
+
+Jari,
+
+A directory traversal vulnerability has been found in arc.  Please add
+the following patches to the arc package ASAP:
+
+http://pkgs.fedoraproject.org/cgit/arc.git/plain/arc-5.21p-hdrv1-read-fix.patch
+http://pkgs.fedoraproject.org/cgit/arc.git/plain/arc-5.21p-fix-arcdie.patch
+http://pkgs.fedoraproject.org/cgit/arc.git/plain/arc-5.21p-directory-traversel.p
+atch
+
+BTW there are also some documentation patches in that repo which you may
+wish to consider adding.
+
+TIA,
+
+Yaakov
+
+--
+http://pkgs.fedoraproject.org/cgit/arc.git/plain/
