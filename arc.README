@@ -67,6 +67,9 @@ Port Notes:
 ----- version 5.21q-1 -----
 - New upstream release 2015-02-19 Jari Aalto
 - Compiled with security patches
+- Include more Fedora patches
+  arc-5.21p-manpage-section-fix.patch
+  arc-5.21p-spelling.patch
 
 ----- version 5.21p-2 -----
 - New release 2015-02-19 Jari Aalto
